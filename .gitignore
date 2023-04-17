@@ -1,0 +1,67 @@
+/build/
+/main
+/deep-*
+/_CPack_Packages/
+/*.cmake
+/config.h
+/.cmake/
+*.ninja
+*.bin
+
+# create by https://github.com/iamcco/coc-gitignore (Mon Apr 17 2023 22:27:21 GMT+0800 (China Standard Time))
+# C++.gitignore:
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# create by https://github.com/iamcco/coc-gitignore (Mon Apr 17 2023 22:47:09 GMT+0800 (China Standard Time))
+# CMake.gitignore:
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# CMake.patch:
+# External projects
+*-prefix/
+
+# create by https://github.com/iamcco/coc-gitignore (Thu Apr 27 2023 17:15:17 GMT+0800 (China Standard Time))
+# Ninja.gitignore:
+.ninja_deps
+.ninja_log
