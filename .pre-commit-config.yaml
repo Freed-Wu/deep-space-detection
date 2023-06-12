@@ -45,7 +45,7 @@ repos:
     hooks:
       - id: check-mailmap
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.31.0
+    rev: v1.32.0
     hooks:
       - id: yamllint
   - repo: https://github.com/executablebooks/mdformat
@@ -62,7 +62,7 @@ repos:
           - mdformat-black
           - mdformat-config
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.7.1
+    rev: v0.8.1
     hooks:
       - id: markdownlint-cli2
         additional_dependencies:
@@ -82,7 +82,7 @@ repos:
         additional_dependencies:
           - tomli
   - repo: https://github.com/kumaraditya303/mirrors-pyright
-    rev: v1.1.305
+    rev: v1.1.313
     hooks:
       - id: pyright
   - repo: https://github.com/PyCQA/bandit
@@ -94,7 +94,7 @@ repos:
         additional_dependencies:
           - tomli
   - repo: https://github.com/pre-commit/mirrors-clang-format
-    rev: v16.0.1
+    rev: v16.0.4
     hooks:
       - id: clang-format
   - repo: https://github.com/cmake-lint/cmake-lint
